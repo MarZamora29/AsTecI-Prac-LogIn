@@ -1,5 +1,5 @@
 const form = document.getElementById("loginForm");
-const form = document.getElementById("message");
+const message = document.getElementById("message");
 
 const validEmail = "correo@dominio.com";
 const validPassword = "123";
