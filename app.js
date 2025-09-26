@@ -9,4 +9,11 @@ form.addEventListener("submit", function(e) {
 
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
+
+    if (email == validEmail && password == validPassword) {
+        MessageChannel.textContent= "login exitoso";
+        message.style.color = "green";
+    } else {
+        
+    }
 })
