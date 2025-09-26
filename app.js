@@ -11,9 +11,10 @@ form.addEventListener("submit", function(e) {
     const password = document.getElementById("password").value;
 
     if (email == validEmail && password == validPassword) {
-        MessageChannel.textContent= "login exitoso";
+        message.textContent= "login exitoso";
         message.style.color = "green";
     } else {
-        
+        message.textContent = "ERROR, usuario o contraseña incorrecto(s)";
+        message.style.color = "red";
     }
-})
+});
