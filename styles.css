@@ -46,3 +46,17 @@ button:hover {
     font-weight: bold;
     text-align: center;
 }
+
+input:focus {
+    outline: none;
+    border-color: #0077cc;
+    box-shadow: 0 0 3px #0077cc;
+}
+
+/*breakpoint*/
+@media (max-width: 600px) {
+    main section {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
