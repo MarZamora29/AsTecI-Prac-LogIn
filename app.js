@@ -14,7 +14,7 @@ form.addEventListener("submit", function(e) {
         message.textContent= "login exitoso";
         message.style.color = "green";
     } else {
-        message.textContent = "ERROR, usuario o contraseña incorrecto(s)";
+        message.textContent = "Usuario o contraseña incorrectos";
         message.style.color = "red";
     }
 });
