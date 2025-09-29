@@ -1,8 +1,8 @@
 const form = document.getElementById("loginForm");
 const message = document.getElementById("message");
 
-const validEmail = "correo@dominio.com";
-const validPassword = "123";
+const validEmail = "test@correo.com";
+const validPassword = "123456";
 
 form.addEventListener("submit", function(e) {
     e.preventDefault();
